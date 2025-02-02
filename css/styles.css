@@ -86,3 +86,15 @@ p {
     padding: 0;
   }
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .hero h2 {
+    font-size: 42px;
+  }
+}
