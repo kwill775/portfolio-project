@@ -1,6 +1,7 @@
 :root {
   --branding-color: #fec40f;
-  --secondary-color: #2b4a39;
+  --primary-color: #2b4a39;
+  --secondary-color: #ff6f0f;
   --heading-font-family: "Jura", serif;
   --default-font-family: "Chathura", serif;
 }
@@ -32,10 +33,15 @@ p {
   line-height: 1;
 }
 
+img {
+  border: 5px solid var(--branding-color);
+  border-radius: 10px;
+}
+
 .hero {
   text-align: center;
   color: white;
-  background: var(--secondary-color);
+  background: var(--primary-color);
   padding: 160px 20px;
 }
 
@@ -59,8 +65,9 @@ p {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border-color: var(--branding-color);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  border: 3px solid;
   border-radius: 50px;
   padding: 10px 30px;
   font-size: 28px;
