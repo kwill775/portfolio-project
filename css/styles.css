@@ -74,10 +74,6 @@ img {
   font-family: var(--default-font-family);
 }
 
-.about-section img {
-  max-width: 500px;
-}
-
 .btn-branding {
   background: var(--branding-color);
   border-radius: 50px;
@@ -100,7 +96,7 @@ img {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 995px) {
   h1 {
     font-size: 60px;
   }
@@ -119,6 +115,10 @@ img {
     text-align: center;
     padding: 70px;
   }
+
+  .about-section img {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -134,9 +134,5 @@ img {
 
   .about-section {
     padding: 30px;
-  }
-
-  .about-section img {
-    max-width: 300px;
   }
 }
