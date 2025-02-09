@@ -57,7 +57,8 @@ img {
 }
 
 .about-section {
-  padding: 160px 200px;
+  padding: 160px 20px;
+  margin: auto 77px;
 }
 
 .about-section-content {
@@ -114,6 +115,7 @@ img {
   .about-section {
     text-align: center;
     padding: 70px;
+    margin: auto;
   }
 
   .about-section img {
@@ -134,5 +136,6 @@ img {
 
   .about-section {
     padding: 30px;
+    margin: auto;
   }
 }
