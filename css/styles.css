@@ -56,21 +56,21 @@ img {
   opacity: 0.8;
 }
 
-.about-section {
+.content-section {
   padding: 160px 20px;
   margin: auto 77px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
-.about-section h1 {
+.content-section h1 {
   font-size: 60px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-section h2 {
   font-size: 25px;
   font-family: var(--default-font-family);
 }
@@ -112,13 +112,13 @@ img {
     padding: 0;
   }
 
-  .about-section {
+  .content-section {
     text-align: center;
     padding: 70px;
     margin: auto;
   }
 
-  .about-section img {
+  .content-section img {
     max-width: 300px;
   }
 }
@@ -134,7 +134,7 @@ img {
     font-size: 42px;
   }
 
-  .about-section {
+  .content-section {
     padding: 30px;
     margin: auto;
   }
