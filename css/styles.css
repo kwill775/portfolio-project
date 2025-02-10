@@ -42,7 +42,7 @@ img {
   text-align: center;
   color: white;
   background: var(--primary-color);
-  padding: 160px 20px;
+  padding: 120px 20px 160px 20px;
 }
 
 .hero p {
@@ -57,7 +57,7 @@ img {
 }
 
 .content-section {
-  padding: 160px 20px;
+  padding: 120px 20px;
   margin: auto 77px;
 }
 
@@ -95,6 +95,38 @@ img {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.head {
+  background: var(--primary-color);
+  color: white;
+}
+
+nav {
+  padding: 20px 0;
+  font-size: 48px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 44px;
+  margin-left: 10px;
+}
+
+nav a {
+  color: white;
+  transition: all 120ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 995px) {
@@ -137,5 +169,10 @@ img {
   .content-section {
     padding: 30px;
     margin: auto;
+  }
+
+  nav {
+    padding: 10px 0;
+    font-size: 35px;
   }
 }
